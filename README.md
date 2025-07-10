@@ -1,4 +1,11 @@
 # GameOverlay
 
+Path of Exile game overlay with pattern scanning and memory reading capabilities.
+
+## Documentation
+
+- **[📋 Complete Patterns & Offsets Documentation](PATTERNS_AND_OFFSETS_DOCUMENTATION.md)** - Comprehensive guide to all patterns and data structures
+- **[⚡ Quick Reference](QUICK_REFERENCE.md)** - Quick lookup for patterns, offsets, and common usage
+
 ## Contribution rules
 Good way to start is to fix one of the existing issue OR add a new issue ( if it's already not there ). Performance and number of offsets required to implement a feature is very very important to me so due to this reason your MR might be rejected or asked to be modified. If your MR or idea is rejected feel free to create a branch or fork this tool and do whatever you want.
