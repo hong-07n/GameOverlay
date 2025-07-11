@@ -1,0 +1,19 @@
+# Build directories
+build/
+*.o
+*.a
+*.so
+*.dll
+
+# Executables (but keep .cpp source files)
+test_patterns
+example_patterns
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Debug files
+debug_*
