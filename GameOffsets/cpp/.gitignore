@@ -4,7 +4,10 @@ build/
 *.a
 *.so
 *.dll
-*.exe
+
+# Executables (but keep .cpp source files)
+test_patterns
+example
 
 # IDE and editor files
 .vscode/
