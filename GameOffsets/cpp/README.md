@@ -17,7 +17,9 @@ The C++ implementation provides equivalent functionality to the original C# code
 - `Pattern.h` / `Pattern.cpp` - Core Pattern class implementation
 - `StaticOffsetsPatterns.h` / `StaticOffsetsPatterns.cpp` - Predefined pattern collections
 - `CMakeLists.txt` - Build configuration
+- `Makefile` - Alternative build system (no CMake required)
 - `test_main.cpp` - Test suite demonstrating functionality
+- `example.cpp` - Usage examples and demonstrations
 
 ## Building
 
@@ -26,6 +28,8 @@ The C++ implementation provides equivalent functionality to the original C# code
 - CMake 3.10 or later
 
 ### Build Instructions
+
+#### Using CMake (Recommended)
 
 ```bash
 mkdir build
@@ -38,10 +42,33 @@ This will create:
 - `libGameOffsetsPatterns.a` - Static library
 - `test_patterns` - Test executable
 
+#### Using Makefile (Alternative)
+
+```bash
+make all     # Build library and executables
+make test    # Build and run tests
+make example # Build and run example
+make clean   # Clean build artifacts
+```
+
 ### Running Tests
 
 ```bash
+# Using CMake
 ./test_patterns
+
+# Using Makefile
+make test
+```
+
+### Running Examples
+
+```bash
+# Using CMake
+./example
+
+# Using Makefile  
+make example
 ```
 
 ## Usage Example
