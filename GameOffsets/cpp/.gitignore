@@ -7,7 +7,7 @@ build/
 
 # Executables (but keep .cpp source files)
 test_patterns
-example
+example_patterns
 
 # IDE and editor files
 .vscode/

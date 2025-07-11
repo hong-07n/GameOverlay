@@ -12,7 +12,7 @@ LIBRARY = libGameOffsetsPatterns.a
 TEST_SOURCES = test_main.cpp
 TEST_EXECUTABLE = test_patterns
 EXAMPLE_SOURCES = example.cpp
-EXAMPLE_EXECUTABLE = example
+EXAMPLE_EXECUTABLE = example_patterns
 
 .PHONY: all clean test example
 
